@@ -44,7 +44,7 @@ ul li {
 }
 
 header {
-height: 123.36470031738281px;
+height: 60px;
 width: 1141px;
 position: relative;
 margin-bottom: 89px;
@@ -115,6 +115,7 @@ margin-bottom: 89px;
 }
 
 .page-content {
+  margin-top: 150px;
   height: 575px;
   margin-bottom: -17px;
 }
@@ -426,15 +427,15 @@ color: #FFFFFF;
   margin-top: 25px;
 }
 
-.menu__footer {
+.footer__menu {
   top: 54px;
   position: absolute;
   left: 159px;
 }
 
-footer {
-  border-top: 1px solid rgba(255, 255, 255, 0.2);;
-  margin-bottom: 50px;
+.footer__frame {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 150px;
 }
 
 .social__item {
@@ -443,7 +444,7 @@ footer {
   margin-right: 10px;
 }
 
-.social {
+.footer__social {
   position: absolute;
   top: 53px;
   right: 267px;
@@ -492,13 +493,13 @@ footer {
   background-image: url("./images/icons/socials/in2.png")
 }
 
-.contacts__footer {
+.footer__contacts {
   top: 44.64px;
   right: 6px;
 }
 
 
-.contacts__text-footer {
+.footer__contacts-text {
   font-size: 11px;
   color: #9A9A9A
 }
