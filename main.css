@@ -8,7 +8,7 @@ body {
   background: #001821;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin: 0!important;
+  margin: 0;
 }
 
 * {
@@ -39,10 +39,8 @@ ul li {
 
 
 .container {
-  margin: 0;
+  margin: 0 auto;
   width: 1150px;
-  margin-left: 64px;
-  margin-top: 9px;
 }
 
 header {
@@ -118,6 +116,7 @@ margin-bottom: 89px;
 
 .page-content {
   height: 575px;
+  margin-bottom: -17px;
 }
 
 .jumb__image {
@@ -139,7 +138,7 @@ margin-bottom: 30px;
 
 .jumb__image-text {
   font-size: 18px;
-  margin-bottom: 31px;
+  margin-bottom: 37px;
 }
 
 .btn {
@@ -304,7 +303,7 @@ color: #FFFFFF;
 }
 
 .section__news {
-  margin-bottom: 45px;
+  margin-bottom: 38px;
 }
 
 .news__text {
@@ -435,8 +434,8 @@ color: #FFFFFF;
   left: 159px;
 }
 
-.footer__container-content {
-  border-top: 1px solid #FFFFFF;
+footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);;
   margin-bottom: 50px;
 }
 
