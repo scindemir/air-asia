@@ -204,7 +204,7 @@ color: #FFFFFF;
   display: inline-flex;
   margin-top: 15px;
   margin-left: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .tours__content-icon {
@@ -273,7 +273,7 @@ color: #FFFFFF;
 }
 
 .tours__btn-wrapper {
-  margin-top: 41px;
+  margin-top: 29px;
   padding-bottom: 50px;
 }
 
