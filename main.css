@@ -8,6 +8,7 @@ body {
   background: #001821;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0;
 }
 
 * {
@@ -37,9 +38,8 @@ ul li {
 }
 
 .main-page-wrapper {
-  margin-left: auto;
-  margin-right: auto;
-  background: url("./images/bg/hero.jpg") center top no-repeat, url("./images/bg/bottom-pic.jpg") right bottom 307px no-repeat;
+
+  background: url("./images/bg/hero.jpg") center top no-repeat, url("./images/bg/bottom-pic.jpg") right bottom no-repeat;
 }
 
 .container {
@@ -116,10 +116,8 @@ margin-bottom: 70px;
   color: #DA0100;
 }
 
-.main-content {
-  position: absolute;
-  margin-top: 575px;
-
+.page-content {
+  height: 575px;
 }
 
 .jumb__image {
@@ -162,12 +160,12 @@ color: #FFFFFF;
   background: #DA0100;
 }
 
-.section1 {
+.section__tours {
   margin-bottom: 138px;
 }
 
 .tours__content {
-  display: flex;
+  display: inline-flex;
 }
 
 .section__title {
@@ -280,11 +278,13 @@ color: #FFFFFF;
   padding-bottom: 50px;
 }
 
+.news__cards {
+  display: inline-flex;
+}
 
 .news-cards-item {
   width: 557px;
   height: 394px;
-  display: inline-block;
   vertical-align: top;
   position: relative;
   margin-left: 15px;
@@ -303,7 +303,7 @@ color: #FFFFFF;
   height: 100%;
 }
 
-.section2 {
+.section__news {
   margin-bottom: 45px;
 }
 
@@ -422,8 +422,6 @@ color: #FFFFFF;
   bottom: 0;
   width: 1142px;
   height: 95px;
-  margin-left: 387px;
-  margin-top: 2581px;
 }
 
 .footer__logo {
