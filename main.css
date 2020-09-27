@@ -43,7 +43,7 @@ ul li {
 }
 
 .container {
-  margin: 0 auto;
+  margin: 0;
   width: 1150px;
 }
 
@@ -422,6 +422,7 @@ color: #FFFFFF;
   bottom: 0;
   width: 1142px;
   height: 95px;
+  margin-left: 50px;
 }
 
 .footer__logo {
