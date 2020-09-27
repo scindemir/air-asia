@@ -33,25 +33,25 @@ ul li {
 }
 
 .wrapper {
-  margin-left: 383px;
-  margin-right: 390px;
-}
-
-.main-page-wrapper {
-
   background: url("./images/bg/hero.jpg") center top no-repeat, url("./images/bg/bottom-pic.jpg") right bottom no-repeat;
 }
+
+
 
 .container {
   margin: 0;
   width: 1150px;
+  margin-left: 64px;
+  margin-top: 9px;
 }
 
 header {
 height: 123.36470031738281px;
 width: 1141px;
 position: relative;
-margin-bottom: 70px;
+margin-bottom: 89px;
+
+
 }
 
 .logo {
@@ -422,7 +422,6 @@ color: #FFFFFF;
   bottom: 0;
   width: 1142px;
   height: 95px;
-  margin-left: 394px;
   margin-top: 45px;
 }
 
