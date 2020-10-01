@@ -1,0 +1,94 @@
+.section__tours {
+  margin-bottom: 131px;
+}
+
+.tours__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tour {
+  background: #FFFFFF;
+  border-radius: 5px;
+  color: #303030;
+  font-size: 14px;
+  min-height: 333px;
+}
+
+.tours__content-item {
+  width: calc(100% / 3 - 22px);
+}
+
+.tour__wrapper {
+  padding: 33px 16px 39px 22px;
+}
+
+
+.tours__content-item:last-child {
+  margin-right: 0;
+}
+
+.tour__content-title {
+  color: #000000;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.tour__content-conditions {
+  display: inline-flex;
+  margin-top: 15px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+
+.tour__content-icon {
+  display: inline-flex;
+  min-width: 26px;
+  min-height: 26px;
+}
+
+.tour__content-nights1 {
+  min-width: 90px;
+  min-height: 22px;
+  font-size: 16px;
+  margin-left: 3px;
+
+}
+
+.tour__content-breakfast1 {
+  min-width: 72px;
+  min-height: 21px;
+  font-size: 16px;
+  margin-left: 5px;
+  
+}
+
+.tour__content-breakfast {
+  margin-left: 30px;
+}
+
+.tour__content-header {
+  min-height: 144px;
+  position: relative;
+  margin-bottom: -16px;
+  padding: 0;
+}
+
+.tour__content-pic {
+  position: absolute;
+  height: 144px;
+  object-fit: cover;
+  overflow: hidden;
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+
+
+.tour__btn-wrapper {
+ display: flex;
+ justify-content: flex-start;
+ padding-top: 18px;
+ margin-top: auto;
+
+}

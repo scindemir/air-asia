@@ -1,0 +1,35 @@
+@import url("./main.css");
+@import url("./header.css");
+@import url("./jumbIndex.css");
+@import url("./tours.css");
+@import url("./news.css");
+@import url("./paginator.css");
+@import url("./about.css");
+@import url("./footer.css");
+@import url("./section.css");
+@import url("./btn.css");
+
+.wrapper {
+  background: url("../images/bg/hero.jpg") center top no-repeat, url("./images/bg/bottom-pic.jpg") right bottom no-repeat;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 1.42;
+  background: #001821;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+}
+
+.page-content {
+  margin-top: 30px;
+  height: 45%;
+  margin-bottom: 9px;
+}
+
+.paginator {
+  margin-bottom: 152px;
+}

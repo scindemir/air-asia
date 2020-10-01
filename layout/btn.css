@@ -1,0 +1,40 @@
+.tour__btn {
+  background: #FFFFFF;
+  border: 1px solid #F5170E;
+  color: #F5170E;
+  border-radius: 35px;
+  padding: 18px 29px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 135px;
+  height: 55px;
+  
+}
+
+.tour__btn--active, .tour__btn:hover {
+  background: #F5170E;
+  color: #FFFFFF;
+
+}
+
+.btn {
+  background: #F5170E;
+  border-radius: 35px;
+  padding: 18px 40px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  width: 169px;
+  }
+  
+  .btn:hover {
+    background: #DA0100;
+  }
