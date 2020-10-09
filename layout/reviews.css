@@ -1,0 +1,143 @@
+@import url("./main.css");
+@import url("./header.css");
+
+@import url("./paginator.css");
+@import url("./footer.css");
+@import url("./section.css");
+@import url("./btn.css");
+@import url("./review.css");
+@import url("./separator.css");
+@import url("./form.css");
+
+
+.wrapper {
+  background: url("../images/bg/headline.jpg") center top no-repeat;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+}
+
+.breadcrumbs__list {
+  display: inline-flex;
+}
+
+.breadcrumbs__item {
+  margin-left: 2px;
+}
+
+
+.wrapper-bottom {
+  background: #001821;
+}
+
+.hero__image-title {
+  font-weight: bold;
+  font-size: 72px;
+  margin-top: -57px;
+  margin-bottom: 93px;
+}
+
+
+.breadcrumbs__link {
+  color: #9A9A9A;
+  font-size: 14px;
+}
+
+.breadcrumbs__link--active {
+  font-weight: bold;
+}
+
+.breadcrumbs__item:after {
+  content: "/";
+  color: #9A9A9A;
+}
+
+.breadcrumbs__item:last-child:after {
+  display: none;
+}
+
+.breadcrumbs__item {
+  display: flex;
+  align-items: center;
+}
+ 
+.main-content {
+  color: #303030;
+  padding: 44px 0px;
+  margin-bottom: 50px;
+}
+
+.main-content .tour__btn {
+  padding-left: 36px;
+  font-size: 14px;
+  width: 163px;
+}
+
+.page-content {
+  margin-top: 150px;
+  height: 575px;
+  margin-bottom: -275px;
+}
+
+
+.reviews__content {
+  column-count: 2;
+  column-gap: 30px;
+}
+
+.reviews__item {
+  margin-bottom: 20px;
+}
+
+.section__reviews {
+  margin-bottom: 64px;
+}
+
+.inner-section {
+  background: #fff;
+  color: #1A1B1E;
+  padding-top: 68px;
+  padding-bottom: 95px;
+}
+
+.inner-section--bg--grey {
+  background: #F4F5F5;
+}
+
+
+
+.inner-section__title {
+  font-weight: bold;
+  font-size: 48px;
+  margin-bottom: 43px;
+}
+
+
+
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -40px;
+  margin-bottom: 58px;
+}
+
+.partners__item {
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.paginator__item--active .paginator__link, .paginator__link:hover {
+  background: #F5170E;
+  color: #FFFFFF;
+}
+
+.footer {
+  margin-top: 0%;
+}
