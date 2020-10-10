@@ -24,6 +24,52 @@ body {
   margin: 0;
 }
 
+.hover__hours {
+  right: 9999px;
+  opacity: 0;
+  transition: opacity .4s;
+  color: #1E1F20;
+  margin-top: -15px;
+  margin-left: 35px;
+}
+
+.hover__menu:hover .hover__hours{
+  right: 0;
+  opacity: 1;
+}
+
+.hover__hours-triangle {
+  border: 20px solid transparent;
+  width: 0;
+  height: 0;
+  border-bottom-color: #EDEDED;
+  margin-bottom: -10px;
+  margin-left: 80px;
+}
+
+.hover__hours-content {
+  background: #EDEDED;
+  padding: 15px 20px;
+  border-radius: 5px;
+  width: 162px;
+  text-align: left;
+}
+
+.hours__top {
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 21px;;
+}
+
+.hours__bottom {
+  font-size: 13px;
+  line-height: 21px;
+}
+
+.hover__menu {
+  margin-bottom: -84px;
+}
+
 .page-content {
   margin-top: 30px;
   height: 45%;
