@@ -36,5 +36,5 @@
 .paginator__item--active .paginator__link, .paginator__link:hover {
   background: #FFFFFF;
   color: #F5170E;
-
+  transition: .2s;
 }
