@@ -18,6 +18,7 @@
 .tour__btn--active, .tour__btn:hover {
   background: #F5170E;
   color: #FFFFFF;
+  transition: .2s;
 
 }
 
@@ -37,4 +38,5 @@
   
   .btn:hover {
     background: #DA0100;
+    transition: .2s;
   }
