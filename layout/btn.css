@@ -33,7 +33,7 @@
   text-decoration: none;
   text-transform: uppercase;
   color: #FFFFFF;
-  min-width: 170px;
+  width: 170px;
   }
   
   .btn:hover {
